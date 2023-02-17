@@ -1,0 +1,533 @@
+@Manual{Apache2022a,
+  author       = {{The Apache Software Foundation}},
+  date         = {2022-02-23},
+  editor       = {{The Apache Software Foundation}},
+  title        = {Apache Log4j 2},
+  organization = {“{The Linux Foundation}”},
+  url          = {https://logging.apache.org/log4j/2.x/index.html},
+  urldate      = {2022-05-22},
+  version      = {2.17.2},
+  groups       = {manuals},
+}
+
+@WWW{Oracle2022,
+  author       = {{Oracle}},
+  date         = {2022-05-26},
+  editor       = {{Oracle}},
+  title        = {Oracle Java},
+  url          = {https://www.oracle.com/java/},
+  organization = {{Oracle}},
+  urldate      = {2022-05-26},
+  comment      = {Java is the #1 programming language and development platform. It reduces costs, shortens development timeframes, drives innovation, and improves application services. With millions of developers running more than 51 billion Java Virtual Machines worldwide, Java continues to be the development platform of choice for enterprises and developers.},
+  groups       = {website},
+}
+
+@Book{Gülcü2002,
+  author    = {Gülcü, Ceki},
+  date      = {2002-11-20},
+  title     = {The Complete log4j Manual},
+  isbn      = {2970036908},
+  pages     = {206},
+  publisher = {QOS.ch},
+  file      = {Log4J Manual:Gulcu2002.pdf:PDF},
+  groups    = {books},
+}
+
+@Misc{CISA2022,
+  author       = {{Cybersecurity and Infrastructure Security Agency}},
+  date         = {2022-04-14},
+  editor       = {{CISA}},
+  title        = {CISA Log4j (CVE-2021-44228) Affected Vendor \& Software Lists},
+  howpublished = {\url{https://github.com/cisagov/log4j-affected-db/blob/develop/software_lists/README.md}},
+  url          = {https://github.com/cisagov/log4j-affected-db},
+  urldate      = {2022-05-25},
+  comment      = {log4j kwetsbaarheden - getroffen fabricanten en producten},
+  commit       = {2b8772e6f0d4d270712acb74255e9998710c432a},
+  groups       = {github},
+  journaltitle = {GitHub repository},
+  publisher    = {GitHub},
+  year         = {2022},
+}
+
+@Misc{NCSCN2022,
+  author       = {{Nationaal Cyber Security Centrum (NCSC-NL)}},
+  howpublished = {\url{https://github.com/NCSC-NL/log4shell}},
+  title        = {Log4shell vulnerabilities (CVE-2021-44228, CVE-2021-45046, CVE-2021-4104, CVE-2021-45105)},
+  year         = {2022},
+  comment      = {log4j kwetsbaarheden - getroffen fabricanten en producten},
+  commit       = {6a59cb8fd17a23b5b8a3904fbbfebc12dff2625e},
+  date         = {2022-02-14},
+  editor       = {{NCSC-NL}},
+  groups       = {github},
+  journaltitle = {GitHub repository},
+  publisher    = {GitHub},
+  url          = {https://github.com/NCSC-NL/log4shell},
+  urldate      = {2022-05-29},
+}
+
+@Misc{Apache2022c,
+  author       = {{The Apache Software Foundation}},
+  date         = {2022-05-05},
+  editor       = {{NIST}},
+  title        = {{CVE}-2021-44228.},
+  howpublished = {Available from NIST, {CVE-ID} {CVE}-2021-44228.},
+  type         = {techreport},
+  url          = {https://nvd.nist.gov/vuln/detail/CVE-2021-44228},
+  urldate      = {2022-05-22},
+  comment      = {NVD Published Date: 2021-12-10
+
+Current Description
+
+Apache Log4j2 versions 2.0-alpha1 through 2.16.0 (excluding 2.12.3 and 2.3.1) did not protect from uncontrolled recursion from self-referential lookups. This allows an attacker with control over Thread Context Map data to cause a denial of service when a crafted string is interpreted. This issue was fixed in Log4j 2.17.0, 2.12.3, and 2.3.1.
+
+References to Advisories, Solutions, and Tools
+
+By selecting these links, you will be leaving NIST webspace. We have provided these links to other web sites because they may have information that would be of interest to you. No inferences should be drawn on account of other sites being referenced, or not, from this page. There may be other web sites that are more appropriate for your purpose. NIST does not necessarily endorse the views expressed, or concur with the facts presented on these sites. Further, NIST does not endorse any commercial products that may be mentioned on these sites. Please address comments about this page to nvd@nist.gov. 
+
+Weakness Enumeration
+
+Known Affected Software Configurations},
+  groups       = {CVE},
+  month        = {12},
+  year         = {2022},
+}
+
+@Report{Apache2022b,
+  author      = {{Apache Logging Security Team}},
+  date        = {2022-02-23},
+  institution = {The Apache Software Foundation},
+  title       = {Apache Log4j Security Vulnerabilities},
+  type        = {techreport},
+  url         = {https://logging.apache.org/log4j/2.x/security.html},
+  urldate     = {2022-05-22},
+  version     = {2.17.2},
+  comment     = {log4j Kwetsbaarheden met fixes en levels van kwetbaarheid},
+  groups      = {report},
+}
+
+@Online{FIRST2022,
+  author  = {{FIRST}},
+  date    = {2022},
+  editor  = {{FIRST.Org, Inc.}},
+  title   = {Common Vulnerability Scoring System SIG (CVSS)},
+  url     = {https://www.first.org/cvss/},
+  urldate = {2022-05-26},
+  groups  = {CVE},
+}
+
+@Article{Hiesgen2022,
+  author       = {Hiesgen, Raphael and Nawrocki, Marcin and Schmidt, Thomas C. and W{\"a}hlisch, Matthias},
+  date         = {2022-05-05},
+  journaltitle = {{Cornell University}},
+  title        = {The Race to the Vulnerable: Measuring the Log4j Shell Incident},
+  doi          = {https://doi.org/10.48550/arXiv.2205.02544},
+  url          = {https://arxiv.org/abs/2205.02544},
+  urldate      = {2022-05-23},
+  volume       = {abs/2205.02544},
+  groups       = {scolar},
+  journal      = {arXiv preprint arXiv:2205.02544},
+  year         = {2022},
+}
+
+@Misc{Apache2022d,
+  author       = {{The Apache Software Foundation}},
+  date         = {2022-04-19},
+  editor       = {{NIST}},
+  title        = {{CVE}-2021-45046.},
+  howpublished = {Available from NIST, {CVE-ID} {CVE}-2021-45046.},
+  type         = {techreport},
+  url          = {https://nvd.nist.gov/vuln/detail/CVE-2021-45046},
+  urldate      = {2022-05-22},
+  comment      = {NVD Published Date: 2021-12-14
+
+Current Description
+
+It was found that the fix to address CVE-2021-44228 in Apache Log4j 2.15.0 was incomplete in certain non-default configurations. This could allows attackers with control over Thread Context Map (MDC) input data when the logging configuration uses a non-default Pattern Layout with either a Context Lookup to craft malicious input data using a JNDI Lookup pattern resulting in an information leak and remote code execution in some environments and local code execution in all environments. Log4j 2.16.0 (Java 8) and 2.12.2 (Java 7) fix this issue by removing support for message lookup patterns and disabling JNDI functionality by default. 
+
+References to Advisories, Solutions, and Tools
+
+By selecting these links, you will be leaving NIST webspace. We have provided these links to other web sites because they may have information that would be of interest to you. No inferences should be drawn on account of other sites being referenced, or not, from this page. There may be other web sites that are more appropriate for your purpose. NIST does not necessarily endorse the views expressed, or concur with the facts presented on these sites. Further, NIST does not endorse any commercial products that may be mentioned on these sites. Please address comments about this page to nvd@nist.gov. 
+
+Weakness Enumeration
+
+Known Affected Software Configurations},
+  groups       = {CVE},
+  month        = {12},
+  year         = {2022},
+}
+
+@Misc{Apache2022e,
+  author       = {{The Apache Software Foundation}},
+  date         = {2022-04-19},
+  editor       = {{NIST}},
+  title        = {{CVE}-2021-4104.},
+  howpublished = {Available from NIST, {CVE-ID} {CVE}-2021-4104.},
+  type         = {techreport},
+  url          = {https://nvd.nist.gov/vuln/detail/CVE-2021-4104},
+  urldate      = {2022-05-22},
+  comment      = {NVD Published Date: 2021-12-14
+
+Current Description
+
+JMSAppender in Log4j 1.2 is vulnerable to deserialization of untrusted data when the attacker has write access to the Log4j configuration. The attacker can provide TopicBindingName and TopicConnectionFactoryBindingName configurations causing JMSAppender to perform JNDI requests that result in remote code execution in a similar fashion to CVE-2021-44228. Note this issue only affects Log4j 1.2 when specifically configured to use JMSAppender, which is not the default. Apache Log4j 1.2 reached end of life in August 2015. Users should upgrade to Log4j 2 as it addresses numerous other issues from the previous versions.
+
+References to Advisories, Solutions, and Tools
+
+By selecting these links, you will be leaving NIST webspace. We have provided these links to other web sites because they may have information that would be of interest to you. No inferences should be drawn on account of other sites being referenced, or not, from this page. There may be other web sites that are more appropriate for your purpose. NIST does not necessarily endorse the views expressed, or concur with the facts presented on these sites. Further, NIST does not endorse any commercial products that may be mentioned on these sites. Please address comments about this page to nvd@nist.gov. 
+Weakness Enumeration
+
+Known Affected Software Configurations},
+  groups       = {CVE},
+  month        = {12},
+  year         = {2022},
+}
+
+@Misc{Apache2022f,
+  author       = {{The Apache Software Foundation}},
+  date         = {2022-04-19},
+  editor       = {NIST},
+  title        = {{CVE}-2021-45105.},
+  howpublished = {Available from NIST, {CVE-ID} {CVE}-2021-45105.},
+  type         = {techreport},
+  url          = {https://nvd.nist.gov/vuln/detail/CVE-2021-45105},
+  urldate      = {2022-05-22},
+  comment      = {NVD Published Date: 2021-12-18
+
+Current Description
+
+Apache Log4j2 2.0-beta9 through 2.15.0 (excluding security releases 2.12.2, 2.12.3, and 2.3.1) JNDI features used in configuration, log messages, and parameters do not protect against attacker controlled LDAP and other JNDI related endpoints. An attacker who can control log messages or log message parameters can execute arbitrary code loaded from LDAP servers when message lookup substitution is enabled. From log4j 2.15.0, this behavior has been disabled by default. From version 2.16.0 (along with 2.12.2, 2.12.3, and 2.3.1), this functionality has been completely removed. Note that this vulnerability is specific to log4j-core and does not affect log4net, log4cxx, or other Apache Logging Services projects.
+
+References to Advisories, Solutions, and Tools
+
+By selecting these links, you will be leaving NIST webspace. We have provided these links to other web sites because they may have information that would be of interest to you. No inferences should be drawn on account of other sites being referenced, or not, from this page. There may be other web sites that are more appropriate for your purpose. NIST does not necessarily endorse the views expressed, or concur with the facts presented on these sites. Further, NIST does not endorse any commercial products that may be mentioned on these sites. Please address comments about this page to nvd@nist.gov.
+
+Weakness Enumeration
+
+Known Affected Software Configurations},
+  groups       = {CVE},
+  month        = {12},
+  year         = {2022},
+}
+
+@Misc{Debian2021,
+  author       = {{Debian GNU/Linux}},
+  date         = {2021-11-17},
+  editor       = {{NIST}},
+  title        = {{CVE}-2014-6271.},
+  howpublished = {Available from NIST, {CVE-ID} {CVE}-2014-6271.},
+  type         = {techreport},
+  url          = {https://nvd.nist.gov/vuln/detail/CVE-2014-6271},
+  urldate      = {2022-05-29},
+  comment      = {NVD Published Date: 2014-09-24
+
+Current Description
+
+GNU Bash through 4.3 processes trailing strings after function definitions in the values of environment variables, which allows remote attackers to execute arbitrary code via a crafted environment, as demonstrated by vectors involving the ForceCommand feature in OpenSSH sshd, the mod_cgi and mod_cgid modules in the Apache HTTP Server, scripts executed by unspecified DHCP clients, and other situations in which setting the environment occurs across a privilege boundary from Bash execution, aka "ShellShock." NOTE: the original fix for this issue was incorrect; CVE-2014-7169 has been assigned to cover the vulnerability that is still present after the incorrect fix.},
+  groups       = {CVE},
+  month        = {12},
+  year         = {2022},
+}
+
+@Misc{Microsoft2022,
+  author       = {{Microsoft Corporation}},
+  date         = {2018-06-20},
+  editor       = {{NIST}},
+  title        = {{CVE}-2017-0147.},
+  howpublished = {Available from NIST, {CVE-ID} {CVE}-2017-0147.},
+  type         = {techreport},
+  url          = {https://nvd.nist.gov/vuln/detail/CVE-2017-0147},
+  urldate      = {2022-05-29},
+  comment      = {NVD Published Date: 2017-03-16
+
+Current Description
+
+The SMBv1 server in Microsoft Windows Vista SP2; Windows Server 2008 SP2 and R2 SP1; Windows 7 SP1; Windows 8.1; Windows Server 2012 Gold and R2; Windows RT 8.1; and Windows 10 Gold, 1511, and 1607; and Windows Server 2016 allows remote attackers to obtain sensitive information from process memory via a crafted packets, aka "Windows SMB Information Disclosure Vulnerability."},
+  groups       = {CVE},
+  month        = {12},
+  year         = {2022},
+}
+
+@Misc{VMware2022,
+  author       = {{VMware}},
+  date         = {2022-05-19},
+  editor       = {{NIST}},
+  title        = {{CVE}-2022-22965.},
+  howpublished = {Available from NIST, {CVE-ID} {CVE}-2022-22965.},
+  type         = {techreport},
+  url          = {https://nvd.nist.gov/vuln/detail/CVE-2022-22965},
+  urldate      = {2022-05-29},
+  comment      = {NVD Published Date: 2022-04-01
+
+Current Description
+
+A Spring MVC or Spring WebFlux application running on JDK 9+ may be vulnerable to remote code execution (RCE) via data binding. The specific exploit requires the application to run on Tomcat as a WAR deployment. If the application is deployed as a Spring Boot executable jar, i.e. the default, it is not vulnerable to the exploit. However, the nature of the vulnerability is more general, and there may be other ways to exploit it.},
+  groups       = {CVE},
+  month        = {12},
+  year         = {2022},
+}
+
+@Online{CheckPoint2021,
+  author       = {{Check Point}},
+  date         = {2021-12-29},
+  editor       = {{Check Point}},
+  title        = {The Numbers Behind Log4j Vulnerability CVE-2021-44228},
+  url          = {https://blog.checkpoint.com/2021/12/13/the-numbers-behind-a-cyber-pandemic-detailed-dive/},
+  organization = {{Checkpoint}},
+  urldate      = {2022-05-29},
+  comment      = {Waren op CYBERSEC EUROPE en we hebben er een contact.
+Goed voor:
+- cijfers
+- tools
+- afbeeldingen},
+  groups       = {pics},
+}
+
+@Online{Zscaler2021,
+  author       = {{Zscaler}},
+  date         = {2021-12-17},
+  editor       = {{Zscaler}},
+  title        = {What We've Learned About the Log4j Vulnerability},
+  url          = {https://www.zscaler.es/blogs/security-research/weekly-roundup-what-weve-learned-about-log4j-vulnerability},
+  organization = {{zscaler}},
+  urldate      = {2022-05-29},
+  comment      = {Afbeelding volledige log4shell aanval
+
+Heeft ook nog een interessant webinar},
+  groups       = {pics},
+}
+
+@Misc{Roth2022,
+  author       = {Roth, Florian},
+  howpublished = {\url{https://gist.github.com/Neo23x0/e4c8b03ff8cdf1fa63b7d15db6e3860b}},
+  title        = {log4j RCE Exploitation Detection},
+  year         = {2022},
+  comment      = {log4j kwetsbaarheden - detectie},
+  date         = {2021-12-16},
+  editor       = {{Neo23x0}},
+  groups       = {github},
+  journaltitle = {GitHub repository},
+  publisher    = {GitHub},
+  url          = {https://gist.github.com/Neo23x0/e4c8b03ff8cdf1fa63b7d15db6e3860b},
+  urldate      = {2022-05-29},
+}
+
+@Online{MDTIT2022,
+  author       = {{Microsoft 365 Defender Threat Intelligence Team}},
+  date         = {2022-01-10},
+  editor       = {{Microsoft Threat Intelligence Center (MSTIC)}},
+  title        = {Guidance for preventing, detecting, and hunting for exploitation of the Log4j 2 vulnerability},
+  url          = {https://www.microsoft.com/security/blog/2021/12/11/guidance-for-preventing-detecting-and-hunting-for-cve-2021-44228-log4j-2-exploitation/#M365D},
+  organization = {{Microsoft Corporation}},
+  urldate      = {2022-05-29},
+  comment      = {Microsoft:
+- preventie
+- detectie
+- zoeken naar exploitatie},
+  groups       = {website},
+}
+
+@Report{MSRC2021,
+  author      = {{Microsoft Security Response Center (MSRC) team}},
+  date        = {2021-12-11},
+  institution = {{MSRC}},
+  title       = {Microsoft's Response to CVE-2021-44228 Apache Log4j 2},
+  type        = {techreport},
+  url         = {https://msrc-blog.microsoft.com/2021/12/11/microsofts-response-to-cve-2021-44228-apache-log4j2/},
+  urldate     = {2022-05-22},
+  abstract    = {Microsoft's Response to CVE-2021-44228 Apache Log4j 2},
+  comment     = {log4j Kwetsbaarheden met fixes en levels van kwetbaarheid},
+  groups      = {report},
+}
+
+@Online{Mishra2021,
+  author       = {Mishra, Rishav},
+  date         = {2021-12-31},
+  editor       = {{Sonatype}},
+  title        = {How Large Organizations Can Easily Scan for Log4j Vulnerabilities},
+  url          = {https://blog.sonatype.com/how-large-organizations-can-easily-scan-for-log4j-vulnerabilities},
+  organization = {{Sonatype}},
+  urldate      = {2022-05-29},
+  groups       = {online_articles},
+}
+
+@WWW{boxomatic2022,
+  author  = {{Boxomatic}},
+  date    = {2022-03-25},
+  editor  = {{HasiCorp}},
+  title   = {boxomatic/debian-11 Vagrant box},
+  url     = {https://app.vagrantup.com/boxomatic/boxes/debian-11},
+  urldate = {2022-05-25},
+  version = {v20220331.0.1},
+  groups  = {poc},
+}
+
+@Misc{VanVrecken2020,
+  author       = {Van Vrecken, Bert},
+  date         = {2020-02-08},
+  editor       = {Bertvv},
+  title        = {Ansible Skeleton},
+  howpublished = {\url{https://github.com/bertvv/ansible-skeleton}},
+  url          = {https://github.com/bertvv/ansible-skeleton},
+  urldate      = {2022-05-25},
+  comment      = {Ansible Skeleton for use with  Vagrant},
+  commit       = {ce41982e8b78560c16fb6e0487e3cb657cdb1ef3},
+  groups       = {github},
+  journaltitle = {GitHub repository},
+  publisher    = {GitHub},
+  year         = {2020},
+}
+
+@Software{Oracle2014,
+  author  = {{Oracle}},
+  date    = {2014-11-14},
+  editor  = {{Oracle}},
+  title   = {Java SE Development Kit 8u20},
+  url     = {https://download.oracle.com/otn/java/jdk/8u20-b26/jdk-8u20-linux-x64.tar.gz},
+  urldate = {2022-05-25},
+  version = {jdk-8u20-linux-x64},
+  groups  = {poc},
+}
+
+@Misc{Kozmer2022,
+  author       = {Kozmer},
+  date         = {2022-01-22},
+  editor       = {Kozmer},
+  title        = {log4j-shell-poc},
+  howpublished = {\url{https://github.com/bertvv/ansible-skeleton}},
+  url          = {https://github.com/kozmer/log4j-shell-poc},
+  urldate      = {2022-05-22},
+  comment      = {log4j CVE-2021-44228 PoC},
+  commit       = {93c3734b9ba1b74b1950d9dbe83ef399004373a1},
+  groups       = {github},
+  journaltitle = {GitHub repository},
+  publisher    = {GitHub},
+  year         = {2022},
+}
+
+@Misc{Bakker2022a,
+  author       = {Bakker, Alexander},
+  date         = {2022-05-22},
+  editor       = {Alexbakker},
+  title        = {log4shell.tools},
+  howpublished = {\url{https://github.com/alexbakker/log4shell-tools}},
+  url          = {https://github.com/alexbakker/log4shell-tools},
+  urldate      = {2022-05-22},
+  comment      = {log4j CVE-2021-44228 testing tools},
+  commit       = {e881d75508b7819506be66fe763c1450cb91b942},
+  groups       = {github},
+  journaltitle = {GitHub repository},
+  publisher    = {GitHub},
+  year         = {2022},
+}
+
+@WWW{Bakker2022b,
+  author  = {Bakker, Alexander},
+  date    = {2022-01-02},
+  title   = {log4shell.tools (webapp)},
+  url     = {https://log4shell.tools},
+  urldate = {2022-05-22},
+  comment = {log4j CVE-2021-44228 en CVE-2021-45046 testing tools (webapplicate)},
+  groups  = {website},
+}
+
+@Misc{CERTCCC2022,
+  author       = {{Computer Emergency Response Team Coordination Center {CERTCC}}},
+  date         = {2022-03-23},
+  editor       = {{Carnegie Mellon University's Software Engineering Institute}},
+  title        = {CVE-2021-44228_scanner},
+  howpublished = {\url{https://github.com/CERTCC/CVE-2021-44228_scanner}},
+  url          = {https://github.com/CERTCC/CVE-2021-44228_scanner},
+  urldate      = {2022-05-29},
+  comment      = {CERTCC - detectie
+CVE-2021-44228_scanner},
+  commit       = {042e5d9c15fe8312492d2f08063631be58486830},
+  groups       = {github, prob},
+  journaltitle = {GitHub repository},
+  publisher    = {GitHub},
+  year         = {2022},
+}
+
+@Misc{Akkurt2022,
+  author       = {Akkurt, Kadir and Thomas, Thomas},
+  date         = {2022-05-29},
+  editor       = {Ttgithg},
+  title        = {Log4Shell PoC},
+  howpublished = {\url{https://github.com/ttgithg/rm_poc_log4shell}},
+  url          = {https://github.com/ttgithg/rm_poc_log4shell},
+  urldate      = {2022-05-29},
+  comment      = {Log4Shell rm PoC},
+  commit       = {ce41982e8b78560c16fb6e0487e3cb657cdb1ef3},
+  groups       = {github},
+  journaltitle = {GitHub repository},
+  publisher    = {GitHub},
+  year         = {2022},
+}
+
+@Misc{Patzke2022,
+  author       = {Patzke, Thomas},
+  date         = {2022-04-26},
+  editor       = {Thomaspatzke},
+  title        = {Log4Pot},
+  howpublished = {\url{https://github.com/thomaspatzke/Log4Pot}},
+  url          = {https://github.com/thomaspatzke/Log4Pot},
+  urldate      = {2022-05-25},
+  comment      = {Honeypot opstelling},
+  commit       = {e224c0f786efb68b4aab892e69857e379b75b0c6},
+  groups       = {github},
+  journaltitle = {GitHub repository},
+  publisher    = {GitHub},
+  year         = {2022},
+}
+
+@Manual{Oracle2020,
+  author  = {{Oracle}},
+  date    = {2020-03},
+  editor  = {{Oracle}},
+  title   = {Java Naming and Directory Interface (JNDI)/LDAP Lookup Service},
+  url     = {https://docs.oracle.com/en/java/javase/14/jmx/java-naming-and-directory-interface-jndi-ldap-lookup-service-example.html},
+  urldate = {2022-05-30},
+  comment = {Werking JNDI LDAP Lookups},
+  groups  = {manuals},
+}
+
+@Online{Conikee2021,
+  author  = {Conikee, Chetan},
+  date    = {2021-12-13},
+  editor  = {{Shiftleft}},
+  title   = {Log4Shell : JNDI Injection via Attackable Log4J},
+  url     = {https://www.shiftleft.io/blog/log4shell-jndi-injection-via-attackable-log4j/},
+  urldate = {2022-05-30},
+  comment = {Goede uitleg hack},
+  groups  = {online_articles},
+}
+
+@Manual{Microsoft2018,
+  author  = {{Microsoft}},
+  date    = {2018-05-31},
+  editor  = {{Microsoft}},
+  title   = {Lightweight Directory Access Protocol},
+  url     = {https://docs.microsoft.com/en-us/previous-versions/windows/desktop/ldap/lightweight-directory-access-protocol-ldap-api},
+  urldate = {2022-05-30},
+  comment = {Landingspagina LDAP Microsoft},
+  groups  = {manuals},
+}
+
+@Comment{jabref-meta: databaseType:biblatex;}
+
+@Comment{jabref-meta: grouping:
+0 AllEntriesGroup:;
+1 StaticGroup:cursusdemo_rm\;0\;1\;0x8a8a8aff\;\;\;;
+1 StaticGroup:articles\;0\;1\;0x8a8a8aff\;\;\;;
+2 StaticGroup:online_articles\;0\;1\;0x8a8a8aff\;\;\;;
+2 StaticGroup:published_articles\;0\;1\;0x8a8a8aff\;\;\;;
+1 StaticGroup:books\;0\;0\;0x8a8a8aff\;\;\;;
+1 StaticGroup:CVE\;0\;0\;0x8a8a8aff\;\;\;;
+1 StaticGroup:github\;0\;0\;0x8a8a8aff\;\;\;;
+1 StaticGroup:manuals\;0\;1\;0x8a8a8aff\;\;\;;
+1 StaticGroup:website\;0\;0\;0x8a8a8aff\;\;\;;
+1 StaticGroup:report\;0\;1\;0x8a8a8aff\;\;\;;
+1 StaticGroup:scolar\;0\;1\;0x8a8a8aff\;\;\;;
+1 StaticGroup:pics\;0\;1\;0x8a8a8aff\;\;\;;
+1 StaticGroup:poc\;0\;0\;0x8a8a8aff\;\;\;;
+1 StaticGroup:prob\;0\;1\;0x8a8a8aff\;\;\;;
+}
